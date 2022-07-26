@@ -1,0 +1,100 @@
+header{
+    background: #bbbbbb ;
+    padding: 20px 0 ;
+}
+h1 img {
+    transition: .5s all ;
+}
+h1 img:hover {
+
+    transform: scale(1.33) ;
+}
+.caixa{
+    position: relative ;
+    width: 980px ;
+    margin: 0 auto ;
+}
+nav{
+    position: absolute;
+    top: 110px ;
+    right: 0 ;
+    
+}
+nav li {
+    display: inline ;  
+    margin: 0 0 0 17px;
+}
+nav a {
+    text-transform: uppercase ;
+    color: black ;
+    font-weight: bold ;
+    font-size: 22px ;
+    text-decoration: none ;
+    transition: .5s all;
+}
+nav a:hover {
+    color: green;
+    text-decoration: underline ;
+}
+footer{
+    text-align: center ;
+    background: #000000 ;
+    padding: 40px 0 ;
+}
+.copywhigt{
+    color: rgb(142, 19, 19) ;
+    font-size: 14px ;
+    margin: 20px 0 ;
+}
+main {
+    width: 940px ;
+    margin: 0 auto ;
+}form {
+    margin: 40px 0 ;
+}
+form label , form legend {
+    display: block ;
+    font-size: 24px ;
+    margin: 0 0 10px ;
+}
+.input-padrão {
+    display: block ;
+    margin: 0 0 20px ;
+    padding: 10px 30px ;
+    width: 50% ;
+}
+fieldset select {
+    cursor: pointer ;
+}
+.chekbox{
+    margin: 20px 0 ;
+}
+.enviar {
+    width: 40% ; 
+    padding: 15px 0 ;
+    background: orange ;
+    color: whitesmoke ;
+    font-weight: bold ;
+    font-size: 18px ;
+    border: none ;
+    border-radius: 10px ;
+    transition: 1s all ;
+    cursor: pointer ;
+}
+.enviar:hover {
+    background: darkorange ;
+    transform: scale(1.2) ;
+}
+table {
+    margin: 20px 0 40px ;
+}
+thead {
+    background: #555555 ;
+    color: whitesmoke ;
+    font-weight: bold ;
+}
+td , th {
+    border: 1px solid black ;
+    padding: 8px 15px ;
+    margin: 0 0 1em ;
+}
